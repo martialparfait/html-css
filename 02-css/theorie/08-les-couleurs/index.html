@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      p {
-        font-size: 4rem;
+      p,
+      a {
+        font-size: 10rem;
       }
 
       .textuel {
@@ -14,7 +15,7 @@
       }
 
       .hexadecimal {
-        color: #4a90e2; /* Un exemple de couleur en hexadécimal */
+        color: #174277; /* Un exemple de couleur en hexadécimal */
       }
 
       .rgb {
@@ -23,15 +24,24 @@
 
       .rgba {
         color: rgba(
-          231,
-          76,
-          60,
+          46,
+          204,
+          113,
           0.5
         ); /* Exemple de couleur RGBA avec transparence */
       }
 
       .hsl {
         color: hsl(210, 100%, 50%); /* Exemple de couleur HSL */
+      }
+
+      a {
+        color: #174277;
+        transition: all 0.2s;
+      }
+
+      a:hover {
+        color: hsl(213 68% 60% / 1);
       }
     </style>
   </head>
@@ -41,5 +51,7 @@
     <p class="rgb">RGB</p>
     <p class="rgba">RGBA</p>
     <p class="hsl">HSL</p>
+
+    <a href="">Mon lien</a>
   </body>
 </html>

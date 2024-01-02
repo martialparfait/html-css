@@ -1,0 +1,36 @@
+body {
+  font-size: 4rem;
+}
+
+.r {
+  color: red;
+}
+.a {
+  color: rgb(22, 50, 187);
+}
+.i {
+  color: #1de600;
+}
+.n {
+  color: hsl(316.48deg 100% 50%);
+}
+.b {
+  color: black;
+}
+.o {
+  color: rgb(208, 255, 0);
+}
+.w {
+  color: #cf3917;
+}
+.c {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+span:hover {
+  color: blueviolet;
+}
+
+.w:hover {
+  color: rgb(0, 0, 139);
+}

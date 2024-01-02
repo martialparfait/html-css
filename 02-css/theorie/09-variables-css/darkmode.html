@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      :root {
+        --bg-color: white;
+        --text-color: black;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: black;
+          --text-color: white;
+        }
+      }
+
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+      }
+    </style>
+  </head>
+  <body>
+    Mon texte
+  </body>
+</html>

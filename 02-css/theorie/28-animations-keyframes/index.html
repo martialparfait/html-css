@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <style>
+      .bloc {
+        background: black;
+        width: 50vw;
+        height: 50vw;
+        margin-bottom: 4rem;
+        color: red;
+        font-size: 5rem;
+      }
+      .full {
+        opacity: 1;
+        animation: myAnim 5s linear 0s infinite;
+      }
+
+      .middle {
+        opacity: 0.5;
+      }
+
+      .invisible {
+        opacity: 0;
+      }
+
+      a {
+        display: block;
+        font-size: 4rem;
+      }
+
+      @keyframes myAnim {
+        0%,
+        50%,
+        100% {
+          opacity: 1;
+        }
+
+        25%,
+        75% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bloc full">Mon text</div>
+    <div class="bloc middle">Mon text</div>
+    <div class="bloc invisible">Mon text</div>
+
+    <a href="#" class="animate__animated animate__bounce">Mon lien</a>
+  </body>
+</html>

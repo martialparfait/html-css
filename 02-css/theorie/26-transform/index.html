@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .bloc {
+        width: 50vh;
+        height: 50vh;
+        background-color: rgb(220, 127, 127);
+        margin-bottom: 4rem;
+      }
+
+      .rotate {
+        transition: transform 1s linear;
+      }
+
+      .rotate:hover {
+        transform: rotate(45deg);
+      }
+
+      .rotate_scale:hover {
+        transform: rotate(45deg) scale(1.5);
+      }
+
+      .translate:hover {
+        background: black;
+        transform: translate(0px, 150px);
+
+        /*  transform: translateX(50%);*/
+      }
+
+      a {
+        font-size: 6rem;
+        color: blue;
+        transition: all 2s;
+        display: inline-block;
+      }
+      a:hover {
+        color: red;
+        transform: translate(20px, 0px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bloc rotate"></div>
+    <div class="bloc translate"></div>
+
+    <div class="bloc rotate_scale"></div>
+
+    <a href="">Mon lien</a>
+  </body>
+</html>
